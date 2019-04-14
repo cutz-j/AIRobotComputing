@@ -69,7 +69,7 @@ def rgb(R, G, B, k):
     rgb[:,:,2] = B_svd
     
     rgb[rgb < 0] = 0
-    rgb[rgb > 255] = 0
+    rgb[rgb > 255] = 255
     
     return rgb
 

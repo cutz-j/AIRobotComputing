@@ -1,4 +1,4 @@
-#define _WINSOCK_DEPRECATED_NO_WARNINGS
+#define _WINSOCK_DEPRECATED_NO_WARNINGS // inet_addr error ignore
 #include "pch.h"
 #include <WinSock2.h>
 #include <stdio.h>

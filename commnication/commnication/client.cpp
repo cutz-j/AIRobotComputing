@@ -4,8 +4,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
+#include <conio.h>
+#include <windows.h>
 
 #pragma comment (lib, "ws2_32.lib")
+float share_Memory(char oid);
+
 
 int main() {
 	WSADATA wsa;
@@ -44,4 +48,12 @@ int main() {
 	WSACleanup();
 
 	return 0;
+}
+
+float share_Memory(char oid) {
+	HANDLE hMapFile;
+	float *pMapView;
+
+
+	return *pMapView;
 }

@@ -1,2 +1,0 @@
-﻿  client.cpp
-c:\users\cutz\source\repos\commnication\commnication\client.cpp(27): warning C4101: 'nSend' :참조되지 않은 지역 변수입니다.

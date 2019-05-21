@@ -11,7 +11,7 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind(("127.0.0.1", 5000))
 server_socket.listen(5)
 
-print("TCP server Start")
+#print("TCP server Start")
 
 while 1:
     client_socket, address = server_socket.accept() # client response event
